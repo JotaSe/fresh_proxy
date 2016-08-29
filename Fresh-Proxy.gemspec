@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["jotase"]
   spec.email         = ["jota.segovia@gmail.com"]
 
-  # spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  # spec.description   = %q{TODO: Write a longer description or delete this line.}
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Gem that scrap proxies}
+  spec.description   = %q{Scrap fresh proxies from the web.}
+  spec.homepage      = "https://github.com/JotaSe/Fresh-Proxy"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
