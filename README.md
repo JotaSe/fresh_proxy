@@ -21,8 +21,18 @@ Or install it yourself as:
     $ gem install fresh_proxy
 
 ## Usage
+```ruby
+  # instance an proxy class
+  proxy = FreshProxy::Proxy.new
+  
+  # to get a fresh proxy
+  proxy.fresh
+  
+  # to get a list of fresh proxies
+  proxy.extract_proxies
+```
 
-TODO: Write usage instructions here
+
 
 ## Development
 
