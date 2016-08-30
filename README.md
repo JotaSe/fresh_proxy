@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-  # instance an proxy class
+  # instance a proxy class
   proxy = FreshProxy::Proxy.new
   
   # to get a fresh proxy
