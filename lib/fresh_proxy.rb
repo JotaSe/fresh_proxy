@@ -1,4 +1,4 @@
-require 'FreshProxy/version'
+require 'fresh_proxy/version'
 
 # Class to scrap proxies from incloak
 class FreshProxy
