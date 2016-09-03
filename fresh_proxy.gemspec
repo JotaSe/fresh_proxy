@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'FreshProxy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'FreshProxy'
+  spec.name          = 'fresh_proxy'
   spec.version       = FreshProxy::VERSION
   spec.authors       = ['jotase']
   spec.email         = ['jota.segovia@gmail.com']
