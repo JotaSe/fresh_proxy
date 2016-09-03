@@ -4,6 +4,7 @@ require 'FreshProxy/version'
 class FreshProxy
   def initialize
     @agent = Mechanize.new
+    puts 'asd'
   end
 
   # scrap incloak page for the proxies with maxtime = 1000ms
