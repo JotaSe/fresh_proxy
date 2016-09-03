@@ -21,11 +21,11 @@ Or install it yourself as:
 ## Usage
 ```ruby
   # instance a proxy class
-  proxy = FreshProxy::Proxy.new
-  
+  proxy = FreshProxy.new
+
   # to get a fresh proxy
   proxy.fresh
-  
+
   # to get a list of fresh proxies
   proxy.extract_proxies
 ```
