@@ -21,6 +21,10 @@ class FreshProxy
     }
   end
 
+  def random
+    extract_proxies.sample
+  end
+
   # get the last 64 most fresh proxies
   def extract_proxies
     extract_page.search('.//table//tbody//tr').map do |row|
