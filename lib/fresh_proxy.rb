@@ -8,7 +8,7 @@ class FreshProxy
 
   # scrap incloak page for the proxies with maxtime = 1000ms
   def extract_page
-    @agent.get 'https://incloak.com/proxy-list/?maxtime=1000#list'
+    @agent.get 'https://incloak.com/proxy-list/?maxtime=1000&type=hs#list'
   end
 
   # get the most fresh proxy
